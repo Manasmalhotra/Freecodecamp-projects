@@ -1,0 +1,49 @@
+<html>
+<header>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</header>
+<title>
+Survey Form
+</title>
+<body>
+<h1 id="title"><b>SURVEY FORM</b></h1>
+<p id="description"><u>Please fill out the following form.</u></p>
+<form id="survey-form">
+<label id="name-label" for="name">Name:&nbsp</label>
+<input id="name" type="text" placeholder="Enter your name" required></input><br><br>
+<label id="email-label" for="email">Email:&nbsp</label>
+<input id="email" type="email" placeholder="Enter your email" required></input><br><br>
+<label id="number-label" for="number">Age:&nbsp&nbsp&nbsp&nbsp</label>
+<input id="number" type="number" placeholder="Age" min="1" max="100" step="2" ondrop="return false",onpaste="return false"></input><br><br>
+Your monthly income:
+<select name="op" id="dropdown">
+<option name="op" value="Less than 50000">Less than 50000</option>
+<option name="op",value="1-3 Lac">1-3 Lac</option>
+<option name="op",value="3-7 Lac">3-7 Lac</option>
+<option name="op",value="More than 7 Lac">More than 7 Lac</option>
+</select>
+<br>
+<br>
+<b>Religion:</b>
+<br>
+<input type="radio" name="religion" value="Hindu">Hindu</input><br>
+<input type="radio" name="religion" value="Sikh">Sikh</input><br>
+<input type="radio" name="religion" value="Muslim">Muslim</input><br>
+<input type="radio" name="religion" value="Christian">Christian</input><br>
+<input type="radio" name="religion" value="Other">Other</input><br><br>
+<b>Highlight your areas of interest:</b>
+<br>
+<input type="checkbox" name="int" value="science"/>Science<br>
+<input type="checkbox" name="int" value="Computers"/>Computers<br>
+<input type="checkbox" name="int" value="Education"/>Education sector<br>
+<input type="checkbox" name="int" value="Current affairs"/>Current Affairs<br>
+<input type="checkbox" name="int" value="Astronomy"/>Astronomy<br>
+<input type="checkbox" name="int" value="comedy"/>Comedy<br>
+<input type="checkbox" name="int" value="Films"/>Films<br>
+<b>Your feedback:</b>&nbsp&nbsp<textarea rows="2" columns="10" placeholder="Comments"></textarea><br><br>
+<input id="submit" type="submit"></input>
+</form>
+</body>
+</html>
+

@@ -1,0 +1,13 @@
+body{
+background-color:rgb(240,243,122);
+}
+#survey-form{
+display:table;
+color:black;
+font-family:Times New Roman;
+font-size:25px;
+padding:15px;
+}
+#survey-form label{
+font-weight:bold;
+}
